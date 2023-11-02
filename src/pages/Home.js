@@ -11,7 +11,7 @@ const Home = () => {
           <h2>Développeur Front-end / Back-end </h2>
           <div className="pdf">
             <a
-              href={`${require("../PDF/cv-AnthonyCarvinDeveloppeurWeb-2023F.pdf")}`}
+              href={`${require("../PDF/cv-AnthonyCarvin-DeveloppeurWeb&WebMobile-2023F.pdf")}`}
               download
               target="_blank"
               rel="noreferrer"

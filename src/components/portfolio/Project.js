@@ -21,7 +21,7 @@ class Project extends Component {
           ))}
         </div>
         <h3>{name}</h3>
-        <img src={picture} alt="" onClick={this.handleInfo} />
+        <img src={picture} alt="theme" onClick={this.handleInfo} />
         <span className="infos" onClick={this.handleInfo}>
           <i className="fas fa-plus-circle"></i>
         </span>
