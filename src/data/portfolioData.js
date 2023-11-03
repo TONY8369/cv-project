@@ -1,3 +1,6 @@
+import css from '../media/css.jpg';
+import crypto from '../media/algorithmes.jpg';
+import covoit from '../media/co-voiturage-deux.jpg';
 export const portfolioData = [
   {
     id: 1,
@@ -24,7 +27,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-php", "fab fa-symfony"],
     source: "https://github.com/TONY8369/project-covoit/tree/anthony",
     info: "Application de covoiturage réalisé en Symfony 6 avec une base de données MySql...",
-    picture: "../media/php.png",
+    picture: covoit,
   },
   {
     id: 4,
@@ -69,7 +72,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js", "fab fa-react", "fab fa-sass"],
     source: "https://git.alt-tools.tech/bootcamp-4m/covoit-nestjs",
     info: "API-COVOIT est une application de covoiturage avec un front réalisé en REACT , un back réalisé en NESTJS orienté microservices avec Nats et un système de mailing et bien plus encore ...",
-    picture: "../media/reactJs.png",
+    picture: covoit,
   },
   {
     id: 9,
@@ -96,7 +99,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-css3-alt"],
     source: "https://github.com/TONY8369/caf--css",
     info: "Exercice css réalisé avec un thème bien précis que je vous laisse découvrire ( tasse à café )",
-    picture: "../media/css.jpg",
+    picture: css,
   },
   {
     id: 12,
@@ -105,7 +108,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js","fab fa-css3-alt"],
     source: "https://github.com/TONY8369/css-animeJs",
     info: "Exercice css réalisé avec un thème bien précis que je vous laisse découvrire avec Anime JS",
-    picture: "../media/css.jpg",
+    picture: css,
   },
   {
     id: 13,
@@ -114,7 +117,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-css3-alt"],
     source: "https://github.com/TONY8369/css-card",
     info: "Exercice css réalisé avec un thème bien précis que je vous laisse découvrire ( card )",
-    picture: "../media/css.jpg",
+    picture: css,
   },
   {
     id: 14,
@@ -123,7 +126,7 @@ export const portfolioData = [
     languagesIcons: ["fab fa-js","fab fa-css3-alt"],
     source: "https://github.com/TONY8369/navbar-css",
     info: "Exercice css réalisé avec un thème bien précis que je vous laisse découvrire ( navbar )",
-    picture: "../media/css.jpg",
+    picture: css,
   },
   {
     id: 15,
@@ -159,6 +162,6 @@ export const portfolioData = [
     languagesIcons: ["fab fa-react","fab fa-js","fab fa-sass"],
     source: "https://github.com/TONY8369/crypto-react",
     info: "Vener découvrire notre api de crypto en react ....",
-    picture: "../media/reactJs.png",
+    picture: crypto,
   },
 ];
